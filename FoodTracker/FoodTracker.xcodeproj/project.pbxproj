@@ -12,6 +12,7 @@
 		911FFCA220274129002A2020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911FFCA020274129002A2020 /* Main.storyboard */; };
 		911FFCA420274129002A2020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911FFCA320274129002A2020 /* Assets.xcassets */; };
 		911FFCA720274129002A2020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911FFCA520274129002A2020 /* LaunchScreen.storyboard */; };
+		911FFCAF202785C2002A2020 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FFCAE202785C2002A2020 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		911FFCA320274129002A2020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911FFCA620274129002A2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		911FFCA820274129002A2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911FFCAE202785C2002A2020 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				911FFC9C20274129002A2020 /* AppDelegate.swift */,
 				911FFC9E20274129002A2020 /* ViewController.swift */,
+				911FFCAE202785C2002A2020 /* RatingControl.swift */,
 				911FFCA020274129002A2020 /* Main.storyboard */,
 				911FFCA320274129002A2020 /* Assets.xcassets */,
 				911FFCA520274129002A2020 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911FFCAF202785C2002A2020 /* RatingControl.swift in Sources */,
 				911FFC9F20274129002A2020 /* ViewController.swift in Sources */,
 				911FFC9D20274129002A2020 /* AppDelegate.swift in Sources */,
 			);
